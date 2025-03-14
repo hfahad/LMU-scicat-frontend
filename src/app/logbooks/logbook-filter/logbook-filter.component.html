@@ -1,8 +1,0 @@
-<div *ngFor="let entry of entries">
-  <mat-checkbox
-    [checked]="isSelected(entry)"
-    (change)="doSelect($event, entry)"
-  >
-    {{ entry }}
-  </mat-checkbox>
-</div>
